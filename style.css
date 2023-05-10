@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+background:url(banner.jpeg)  ;
+height: 650px;
+background-size: cover;
+background-position:center ;
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    background:url(icon.jpeg) 
+  
+    
+}
+.bannerText{
+    text-align: center;
+    color:rgb(220, 171, 108);
+    font-family:cursive;
+    padding-top: 130px;
+    
+}
+.bannerText h1{
+    font-size: 70px;
+}
+
+
+
+.bannerText p{
+    font-size: 30px;
+}
+
+.bannerbtn{
+    margin: 10px 0px;
+    text-align: center;
+}
+.bannerbtn button{
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+    color:rgb(227, 161, 75);
+    transition: all 1s;
+    font-family: cursive;
+    
+}
+.bannerbtn button:hover{
+    background-color: rgb(220, 171, 108);
+    color: white;
+    transform: scale(1.1);
+
+}    
+.titleText{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: rgb(75, 74, 72);
+    font-family: cursive;
+}
+
+.titleText p{
+font-size: 40px;
+margin-top:100px;
+}
+.titleText p{
+    font-size: 75px;
+    font-family: cursive;
+    color:rgb(220, 171, 108);
+    
+}
+
+.featurebox{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+    margin:auto;
+    align-items: center;
+    
+
+}
+.features{
+    flex-basis: 50%;
+    font-family: cursive;
+    
+}
+.featureImg{
+    flex-basis: 50%;
+    margin :auto;
+    
+
+}
+
+.featureImg img{
+width: 70%;
+border-radius: 10px;
+margin-bottom: 25px;
+
+ }
+ .featureicon span{
+    color: rgb(156, 101, 30);
+    font-size: 30px;
+    margin: 5px;
+ }
+
+ #testmonials{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+ }
+ .row{
+     width: 100%;
+     display:flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin: 10px 0px;
+
+ }
+ .col{
+    border: 1px;
+    width: 25%;
+    height: 150px;
+    box-shadow: 4px 2px 3px 3px rgb(56, 56, 56);
+    transition: all 1s;
+    background: linear-gradient(white,rgb(252, 179, 84));
+    border: 100px;
+     font-family: cursive;
+     font-weight: bold;
+ }     
+ .col:hover{
+    transform: scale(1.1);
+
+ }
+ footer{
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(white,rgb(243, 194, 131));
+    color: rgb(18, 17, 17);
+    border-radius: 10px;
+    padding: 15px 0px;
+ }
+ .footerdata{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-family: cursive;
+    
+
+ }
+.leftdata{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+.rightdata{
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.leftdata h3,.rightdata h3{
+    margin: 10px 0px;
+}
+.leftdata p,.rightdata p{
+    margin: 10px 0px;
+}
